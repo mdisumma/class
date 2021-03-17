@@ -9,10 +9,18 @@
 </head>
 
 <body>
+    <h1>Covid Calendar</h1>
     <header>
-        <h1>Covid Calendar</h1>
+
+        <form>
+            <label for="search">search:</label>
+            <input type="text" id="search" name="search" placeholder="2021-03-17">
+            <button id="button">click</button>
+        </form>
+        <div id="result"></div>
     </header>
-    <div class="tableHeader">
+    <hr>
+    <!-- <div class="tableHeader">
         <h3 class="dayString" id="monday">Monday</h3>
         <h3 class="dayString" id="tuesday">Tuesday</h3>
         <h3 class="dayString" id="wednesday">Wednesday</h3>
@@ -20,7 +28,7 @@
         <h3 class="dayString" id="friday">Friday</h3>
         <h3 class="dayString" id="saturday">Saturday</h3>
         <h3 class="dayString" id="sunday">Sunday</h3>
-    </div>
+    </div> -->
     <div id="coronadata"></div>
 </body>
 <footer>
