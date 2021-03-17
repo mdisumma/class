@@ -38,7 +38,7 @@ ul {
     padding: 1em;
 }
 ul:hover {
-    box-shadow:5px 5px rgb(112, 128, 150)
+    box-shadow:5px 5px rgb(116, 103, 108);
 }
 .day {
     padding:0.2em;
