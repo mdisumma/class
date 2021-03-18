@@ -1,11 +1,13 @@
-* code for error support
-use if statement do define requested parameter and define supporting message
+* build the header.
 
-* target the country
-create label, input, button, and code for country choice
+* code for error support.
+Use if statement do define requested parameter and define supporting message
 
-* spinner on load
-use onload event to show the spinner
+* target the country.
+Create label, input, button, and code for country choice
+
+* spinner on load.
+Use onload event to show the spinner
 
 ............... then we check on heuristic.md for future implementation
 

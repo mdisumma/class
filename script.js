@@ -4,7 +4,7 @@ var DateTime = luxon.DateTime;
 /////////////////DATE & TIME
 //https://www.w3schools.com/js/js_date_formats.asp
 var todayDate = new Date();
-console.log(`today date from method: ${todayDate}`)
+console.log(`today date from Date method: ${todayDate}`)
 
 //////////////////////COUNTRY (const = ...) 
 
@@ -30,7 +30,7 @@ document.addEventListener('DOMContentLoaded', async () => {
     console.log(results);
 
     //LABEL
-    // const casesResult = results.data[0].newCases
+    const casesResult = results.data[0].newCases
     // const dateResult = results.data[0].date
     // console.log(`data from luxton:${DateTime.fromISO(dateResult).toFormat('DD')}`);
 
