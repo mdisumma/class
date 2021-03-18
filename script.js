@@ -1,10 +1,18 @@
 var DateTime = luxon.DateTime;
 
 
-//date method
+/////////////////DATE & TIME
 //https://www.w3schools.com/js/js_date_formats.asp
 var todayDate = new Date();
 console.log(`today date from method: ${todayDate}`)
+
+//////////////////////COUNTRY (const = ...) 
+
+////////////////NUMBER OF DAY (...length)
+
+//////////////// PRINT ON HTML DOCUMENT (...query & innerHTML)
+
+
 
 //GET CALL
 const getData = async () => {
