@@ -8,3 +8,6 @@ create label, input, button, and code for country choice
 use onload event to show the spinner
 
 ............... then we check on heuristic.md for future implementation
+
+
+Setting git-hub team ?
