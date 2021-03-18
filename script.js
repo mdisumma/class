@@ -35,9 +35,18 @@ document.addEventListener('DOMContentLoaded', async () => {
     document.querySelector('#button').addEventListener('click', function (event) {
         event.preventDefault()
         const dateInput = document.querySelector('#search').value;
-        console.log(`date input: ${dateInput}`)
+        console.log(`date input: ${dateInput}`);
+        //human writable sequenze
+        const inputDay = dateInput.substring(0, 2)
+        console.log(inputDay)
+        const inputMonth = dateInput.substring(3, 5)
+        console.log(inputMonth)
+        const inputYear = dateInput.substring(6, 10)
+        console.log(inputYear)
+        console.log(`date format: ${inputYear}-${inputMonth}-${inputDay}`);
+        const isoData = `${inputYear}-${inputMonth}-${inputDay}`
         for (i = 0; i < results.data.length; i++) {
-            if (results.data[i].date == dateInput) {
+            if (results.data[i].date == isoData) {
                 const caseResult = results.data[i].newCases
                 const printDataSearch = document.querySelector('#result');
                 printDataSearch.innerHTML = `<p>Result date:${dateInput} cases:${caseResult}</p>`
